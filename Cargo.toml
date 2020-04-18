@@ -1,5 +1,5 @@
 [package]
-name = "vitte-rs"
+name = "vitte_rs"
 version = "0.1.0"
 authors = ["TheSirC <clocloranely@hotmail.fr>"]
 edition = "2018"
@@ -9,3 +9,8 @@ edition = "2018"
 [dependencies]
 rand = "0.7.1"
 rand_distr = "0.2.2"
+criterion = "0.3.1"
+
+[[bench]]
+name = "size_collection"
+harness = false
